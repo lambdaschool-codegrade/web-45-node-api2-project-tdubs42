@@ -12,7 +12,8 @@ server.use('/api/posts', postsRouter)
 
 // CATCHALL
 server.use('*', (req, res) => {
-  res.status(200).json({message: 'server up and running'})
+  res.status(200)
+    .json({message: 'server up and running'})
 })
 
 module.exports = server
