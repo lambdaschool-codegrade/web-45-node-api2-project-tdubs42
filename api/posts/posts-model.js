@@ -1,4 +1,4 @@
-const db = require('../../data/db-config');
+const db = require('../../data/db-config')
 
 module.exports = {
   find,
@@ -9,50 +9,57 @@ module.exports = {
   findPostComments,
   findCommentById,
   insertComment,
-};
-
-function find() {
-  return db('posts');
 }
 
-function findById(id) {
-  return db('posts').where({ id: Number(id) }).first()
+async function find() {
+  return await db('posts')
 }
 
-function insert(post) {
+async function findById(id) {
   return db('posts')
+    .where({id: Number(id)})
+    .first()
+}
+
+async function insert(post) {
+  return await db('posts')
     .insert(post)
-    .then(ids => ({ id: ids[0] }));
+    .then(ids => (
+      {id: ids[0]}
+    ))
 }
 
-function update(id, post) {
+async function update(id, post) {
   return db('posts')
     .where('id', Number(id))
-    .update(post);
+    .update(post)
 }
 
-function remove(id) {
+async function remove(id) {
   return db('posts')
     .where('id', Number(id))
-    .del();
+    .del()
 }
 
-function findPostComments(postId) {
+async function findPostComments(postId) {
   return db('comments')
     .join('posts', 'posts.id', 'post_id')
     .select('comments.*', 'title as post')
-    .where('post_id', postId);
+    .where('post_id', postId)
 }
 
-function findCommentById(id) {
+async function findCommentById(id) {
   return db('comments')
     .join('posts', 'posts.id', 'post_id')
     .select('comments.*', 'title as post')
-    .where('comments.id', id).first();
+    .where('comments.id', id)
+    .first()
 }
 
-function insertComment(comment) {
-  return db('comments')
+async function insertComment(comment) {
+  return await db('comments')
     .insert(comment)
-    .then(ids => ({ id: ids[0] }));
+    .then(ids => (
+      {id: ids[0]}
+    ))
 }
