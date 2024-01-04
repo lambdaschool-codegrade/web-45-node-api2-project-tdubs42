@@ -1,7 +1,8 @@
 repo_name: tdubs42/web-45-node-api2-project-tdubs42
 report_id: 998766690618da849ef5f15e819889e1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T22:12:08+00:00'
+timestamp: '2024-01-04T15:15:58+00:00'
 requested_by: tdubs42
 provider: github
 branch: tawnya-wessar
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -28,7 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: tdubs
   last_updated_on: 2021-08-31 19:34:00.000000000 Z
@@ -41,6 +43,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package.json
   detection_source: package.json
   last_updated_by: Karthik Viswanathan
   last_updated_on: 2017-08-09 04:53:27.000000000 Z
@@ -53,6 +56,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package.json
   detection_source: package.json
   last_updated_by: Karthik Viswanathan
   last_updated_on: 2017-08-09 04:53:27.000000000 Z
@@ -64,6 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -75,7 +80,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Karthik Viswanathan
   last_updated_on: 2017-08-09 04:53:27.000000000 Z
@@ -89,7 +94,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Gabriel Cabrejas
   last_updated_on: 2021-08-31 12:22:30.000000000 Z
@@ -103,7 +108,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Gabriel Cabrejas
   last_updated_on: 2021-08-03 13:26:42.000000000 Z
@@ -115,6 +120,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package.json
   detection_source: package.json
   last_updated_by: Karthik Viswanathan
   last_updated_on: 2017-08-09 04:53:27.000000000 Z
@@ -128,7 +134,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Gabriel Cabrejas
   last_updated_on: 2021-08-31 12:22:30.000000000 Z
@@ -142,7 +148,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: tdubs
   last_updated_on: 2021-08-31 19:34:00.000000000 Z
@@ -156,7 +162,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Gabriel Cabrejas
   last_updated_on: 2021-04-07 15:08:06.000000000 Z
@@ -170,7 +176,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: tdubs
   last_updated_on: 2021-08-31 19:34:00.000000000 Z
@@ -191,7 +197,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: tdubs
   last_updated_on: 2021-08-31 19:34:00.000000000 Z
@@ -205,7 +211,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16491/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Gabriel Cabrejas
   last_updated_on: 2021-08-31 12:22:30.000000000 Z
@@ -226,7 +232,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/web-45-node-api2-project-tdubs42/blob/tawnya-wessar/package-lock.json
   detection_source: package.json
   last_updated_by: Gabriel Cabrejas
   last_updated_on: 2021-03-09 21:06:35.000000000 Z
