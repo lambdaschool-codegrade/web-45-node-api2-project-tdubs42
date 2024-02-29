@@ -2,7 +2,7 @@ repo_name: tdubs42/web-45-node-api2-project-tdubs42
 report_id: 998766690618da849ef5f15e819889e1
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:06:02+00:00'
+timestamp: '2024-02-29T18:23:50+00:00'
 requested_by: tdubs42
 provider: github
 branch: tawnya-wessar
@@ -85,7 +85,7 @@ tools:
   last_updated_by: Karthik Viswanathan
   last_updated_on: 2017-08-09 04:53:27.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 6.1.6
   license: MIT
